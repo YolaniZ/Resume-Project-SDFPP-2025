@@ -1,0 +1,11 @@
+.profile{
+display: grid;
+grid-template-columns: auto;
+gap: 1.6em;
+max-height: 18.75rem;
+
+}
+.profile-pic img{
+    object-fit: cover;
+    
+}
