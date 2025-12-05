@@ -647,6 +647,9 @@ body {
   /* ensure text is readable on dark background */
 }
 
+@media (max-width: 480px) {
+}
+
 /*FOOTER SECTION*/
 .contact-footer {
   background-color: #d76239;
@@ -656,45 +659,13 @@ body {
 }
 
 .contact-footer h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24.2px;
-  line-height: 150%;
-  letter-spacing: 0;
-  margin-bottom: 1rem;
-  color: #111827;
-}
-
-.contact-intro {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-  margin: 0;
-  color: #374151;
-}
-
-.contact-info {
-  margin: 1.5rem 0;
-}
-
-.contact-item {
-  margin: 0.5rem 0;
-}
-
-.contact-icon {
-  margin-right: 0.5rem;
-}
-
-.contact-footer a {
-  color: #dddddd;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.copyright {
-  margin-top: 1.5rem;
-  font-size: 14px;
-  color: #6b7280;
+  footer {
+    color: white;
+    width: 80%;
+    padding: 20px;
+    background-color: #d76239;
+    border-radius: 29px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
 }

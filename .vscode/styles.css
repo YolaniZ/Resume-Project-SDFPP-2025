@@ -647,14 +647,17 @@ body {
   /* ensure text is readable on dark background */
 }
 
+@media (max-width: 480px) {
+}
+
 /*FOOTER SECTION*/
+
 .footer {
   background-color: #d76239;
   padding: 2rem;
   text-align: center;
   border-top: 2px solid #4a8b70;
 }
-
 .footer-title {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -664,7 +667,6 @@ body {
   letter-spacing: 0;
   margin-bottom: 1rem;
   color: #111827;
-  /* dark text */
 }
 
 .footer-contact p {
