@@ -76,6 +76,7 @@ body {
 }
 
 /* Proficiency + skills side by side */
+/* Proficiency + skills side by side */
 .proficiency-skills {
   display: flex;
   /* place them side by side */
@@ -227,12 +228,12 @@ body {
   font-size: 20px;
   line-height: 1.5;
   margin: 0.5rem 0;
-  color: #ffffff;
+  color: #374151;
 
   background-color: #e5e7eb;
   /* light gray badge */
-  padding: 28px;
-  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
 }
 
 /* Wrapper for proficiency + skills side by side */
@@ -641,7 +642,7 @@ body {
 }
 
 /* First experience card only */
-.experience-card:first-child {
+.experience-card:first-card {
   background-color: #4a8b70;
   color: #fff;
   /* ensure text is readable on dark background */
@@ -649,12 +650,9 @@ body {
 
 /*FOOTER SECTION*/
 .footer {
-  background-color: #d76239;
-  /* light background */
-  padding: 2rem;
+  background-color: #D76239;
+  padding: 29.04px;
   text-align: center;
-  border-top: 2px solid #4a8b70;
-  /* subtle accent line */
 }
 
 .footer-title {
@@ -665,7 +663,6 @@ body {
   line-height: 150%;
   letter-spacing: 0;
   margin-bottom: 1rem;
-  color: #111827;
   /* dark text */
 }
 
@@ -675,17 +672,17 @@ body {
   font-size: 18px;
   line-height: 150%;
   margin: 0;
-  color: #374151;
-  /* medium gray */
+ 
 }
 
 .footer-contact a {
-  color: #dddddd;
   /* accent color for links */
   text-decoration: none;
   font-weight: 500;
-}
 
 .footer-contact a:hover {
   text-decoration: underline;
+}
+
+
 }
